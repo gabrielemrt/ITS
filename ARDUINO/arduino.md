@@ -1,3 +1,3 @@
 #ARDUINO
 logo.png
-!(./img/logo.png)
+![LOGO](./img/logo.png)
