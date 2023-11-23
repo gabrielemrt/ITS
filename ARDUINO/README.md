@@ -26,3 +26,19 @@ Arduino UNO è una piattaforma HW dotata di Microcontrollore ATMega328P
 
 
 ## IDE
+
+Nell'IDE, scrivi il tuo programma utilizzando il linguaggio di programmazione di Arduino, che è essenzialmente una variante semplificata di C/C++.
+
+Un programma di base Arduino include almeno due funzioni: setup() (per l'inizializzazione) e loop() (per l'esecuzione continua).
+
+
+Per programmare in Arduino, devi prima installare l'ambiente di sviluppo integrato (IDE) di Arduino. L'IDE è disponibile gratuitamente per Windows, macOS e Linux.
+
+
+
+Una volta installato l'IDE, puoi iniziare a scrivere il tuo codice. Il codice Arduino è scritto in un linguaggio derivato dal C/C++.
+
+Il codice Arduino è suddiviso in due funzioni principali:
+
+* void setup(): Questa funzione viene eseguita una sola volta all'avvio della scheda Arduino. In questa funzione, puoi eseguire le impostazioni iniziali, come configurare le porte di I/O.
+* void loop(): Questa funzione viene eseguita ripetutamente finché la scheda Arduino è accesa. In questa funzione, puoi inserire il codice che vuoi che la scheda Arduino esegua.
