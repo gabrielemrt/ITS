@@ -1,0 +1,46 @@
+# RIEPILOGO LEZIONI DI CYBER 
+
+## standard ISO 27001
+PROCESSO DI SELEZIONE DI UNA SOLUZIONE COMPLIANT ALLO STANDARD ISO 27001 
+
+
+COSA É LO STANDARD ISO 27001
+
+ISO 27001 è uno dei principali standard cybersecurity, uno standard non è altro che un documento in cui si vanno a determinare una 
+serie di requisiti e processi per cercare di garantire la cyber-sicurezza all'interno dei nostri business.
+Generalmente a decidere la la strategia da adottare per essere conformi a questi standard è una decisioone che spetta al CISO (Chief Information Security Officier)
+ed il CISO poi a confrontarsi con l' IT manager.
+
+ISO 27001 2022 definisce che le INFORMATION SECURITY POLICY e le TOPIC-SPECIFIC POLICIES dovrebbero essere definite , approvate dai manager , pubblicate , 
+comunicate al personale e revisionate ad intervalli pianificati, o quando si necessita di cambiamenti significativi. 
+
+##PRIMA FASE: stesura di una policy aziendale atta alla soddisfazione di determinati obblighi nella gestione dei dati 
+
+I CONCETTI FONDAMENTALI AFFRONTATI DA UNA POLICY 
+
+I concetti fondamentali che stanno alla base della scelta strategica che vogliamo prendere sono i concetti significativi della cybersecurity 
+e le policy che scriviamo descrivono una serie di requisiti e le azioni per perseguire il raggiungimento di tali obbiettivi.
+In particolare questi concetti sono:
+    -CONFIDENTIALITY: protezione del dato e restrizione degli accessi al dato stesso 
+        -AUTHORIZATION: definizione di diritti di accesso e privilegi riguardo le informazioni di uno o più oggetti/agenti 
+        -SECRECY: utilizzo di tecniche come la crittografia per poter mantenere il dato comprensibile dalle parti interessate ma renderlo secreto allo stesso tempo
+    -INTEGRITY: letteralmente mantenere il dato integro, proteggerlo da modifiche improprie o distruzione. 
+        -AUTHENTICITY: Il processo di verifica dell'identità di un agente(systema , sofware , persona , file) 
+        -IDENTIFICATION: L' atto di procurare un identità all agente , normalmente per riuscire ad identificare si utilizza qualcosa che l'agente sa , ha , oppure qualcosa che è (fingerprint)
+        -ACCOUNTABILITY: Il processo che permette di poter tracciare le azioni di un entità(agente) unicamente a quest' ultima 
+                     Un esempio e quello di stabilire precisamente le responsabilità di un dipendente/responsabile e fare in modo di poter tracciare queste azioni
+                     per poter risalire al responsabile nel caso in cui le "regole" stabilite non siano state rispettate.
+    -AVAILABILITY: Assicurare l'accesso e l'uso delle informazioni(servizio) , la disponibilità di un servizio. 
+
+LA NOSTRA POLICY: https://edu.v-research.it/zorin_cybersecurity2/
+
+##SECONDA FASE: ricerca di una tecnologia che sia in grado di soddisfare i requisiti definiti dalla nostra policy (Policy sul Password Management)
+
+Si esegue una ricerca accurata dei password manager disponibili in base al budget , che possano rispettare il maggior numero di requisiti possibile , inoltre di eseguono anche delle valutazioni in base alle dimensioni dell'azionda e dell'infrastruttura in cui si andrà ad integrare tale tecnologia.
+Una volta selezionata la tecnologia si provvede ad un installazione di test per verificare l'integrazione del prodotto.
+Una volta installato il prodotto si fa uno schema architetturale (diagramma di flusso dei dati) del infrastruttura che sostiene il nostro password manager 
+e si fa quella che si chiama Threat Analysis.
+La treath analysis è un analisi in cui si valuta la natura del sistema (architettura , funzionamento) e in base a quest'ultima si identificano ed enumerano (si rendono 
+un elenco di elementi univoci) potenziali minacce, inoltre si stilano le misure difensive neccessarie per prevenire tali minacce.
+
+##TERZA FASE: Si vanno ad implementare le Mitigation (migrazioni / modellazioni) atte a far fronte alle minacce (threat) e si verifica la risoluzione a tale problema.
