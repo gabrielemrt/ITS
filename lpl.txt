@@ -1,0 +1,24 @@
+1. sudo systemctl set-default graphical.target
+2. sudo nano /etc/default/grub 
+2. GRUB_TIMEOUT= 15 & GRUB_TIMEOUT_STYLE = menu
+2. sudo update-grub
+3. sudo apt-get update
+3. sudo apt-get install nginx
+3. sudo systemctl enable/start/status nginx
+4. sudo parted /dev/sdb mklabel gpt
+4. sudo parted /dev/sdb mkpart primary linux-swap 2M 102M
+4. sudo mkswap /dev/sdb1
+4. sudo parted /dev/sdb mkpart primary ext4 103M 100%
+4. sudo mkfs.ext4 /dev/sdb2
+4. sudo fdisk -l
+5. echo '/dev/sdb2 /mnt ext4 defaults 0 2' | sudo tee -a /etc/fstab
+5. sudo mount -a
+6. echo '/dev/sdb1 none swap sw 0 0' | sudo tee -a /etc/fstab
+6. sudo swapon -a
+7. sudo chsh -s /bin/sh root
+8. vim ~/.bashrc 
+8. set -o noclobber
+8. source ~/.bashrc
+9. mkdir ~/compito
+9. touch ~/compito/file{1..10}
+10. tar -czvf ~/compito.tar.gz ~/compito
